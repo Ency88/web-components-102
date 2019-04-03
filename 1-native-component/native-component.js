@@ -65,14 +65,9 @@ class MyNativeComponent extends HTMLElement {
                 button:active {
                     background: #FFA700;
                 }
-                
-                .message {
-                    padding: 0.5rem 0;
-                }
             </style>
             <div class="element-body">
                 <slot></slot>
-                <div class="message">Temporary message</div>
                 <div>${this.attributeMessage}</div>
                 <button>Click</button>
             </div>

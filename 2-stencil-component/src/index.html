@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script src="/build/mycomponent.js"></script>
+</head>
+<body>
+<style>
+  html,
+  body {
+    font-family: sans-serif;
+    background: #F8F8F8;
+  }
+
+  h1,h2,h3 {
+    color: #01A688;
+  }
+
+  div {
+    color: #004953;
+  }
+
+  #content {
+    width: 400px;
+    margin: 2rem auto;
+  }
+
+  .title {
+    text-align: center;
+  }
+</style>
+<section id="content">
+  <h1 class="title">Web Components</h1>
+  <stencil-component attribute-message="test test"><h3>Title via slot</h3></stencil-component>
+</section>
+<script>
+  document.addEventListener('element-dispatch', (event) => {
+    console.log('Event has been handled: ', event.detail)
+  })
+</script>
+</body>
+</html>

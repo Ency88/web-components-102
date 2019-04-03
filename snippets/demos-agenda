@@ -6,6 +6,7 @@ NATIVE-ELEMENT
 4. Introduce _render
 5. attribute message
     - add atribute message
-6. Events 
+6. Slots
+7. Events 
     - listen for event
     - dispatch event

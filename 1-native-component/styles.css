@@ -1,0 +1,22 @@
+html,
+body {
+    font-family: sans-serif;
+    background: #F8F8F8;
+}
+
+h1,h2,h3 {
+    color: #01A688;
+}
+
+div {
+    color: #004953;
+}
+
+#content {
+    width: 400px;
+    margin: 2rem auto;
+}
+
+.title {
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+NATIVE-ELEMENT
+
+1. Show simple element with <div>
+2. Attach Shadow dom
+3. Render basic stucture
+4. Introduce _render
+5. attribute message
+    - add atribute message
+6. Events 
+    - listen for event
+    - dispatch event

@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <title>Native Component</title>
     <script src="native-component.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-
+<section id="content">
+    <h1 class="title">Web Components</h1>
+    <my-native-component attribute-message="Attribute message from outside">
+        <h3 style="color: white">This is a new title</h3>
+    </my-native-component>
+</section>
+<script>
+    document.addEventListener('element-dispatch', (event) => {
+        console.log('Event has been handled: ', event.detail)
+    })
+</script>
 </body>
 </html>

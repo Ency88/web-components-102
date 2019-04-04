@@ -5,6 +5,7 @@ NATIVE-ELEMENT
 3. Render basic stucture
 4. Introduce _render
 5. attribute message
+    - maybe show via console add with attribute
     - add atribute message
 6. Slots
 7. Events 

@@ -11,3 +11,6 @@ is called immediately when component is going to be detached to the dom - you ca
 ##### When attribute is changed
 `attributeChangedCallback(name, oldValue, newValue)`
 is called each time when **observed** atribute is changed
+
+###### Observed Attributes
+`static get observedAttributes() { return [...]}`

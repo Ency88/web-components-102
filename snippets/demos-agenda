@@ -1,13 +1,20 @@
 NATIVE-ELEMENT
 
-1. Show simple element with <div>
+
+1. Wrong name of the custom element
+2. Console log from the constructor
+3. Lifecycle hooks
+3. Show simple element with <div>
 2. Attach Shadow dom
-3. Render basic stucture
+3. Render basic structure
 4. Introduce _render
 5. attribute message
     - maybe show via console add with attribute
-    - add atribute message
+    - add attribute message
 6. Slots
 7. Events 
-    - listen for event
+    - listen for event from inside of element (no setting)
+    - listen for event from console - bubbles (change button to this + console)
     - dispatch event
+8. Functions
+    - provide complex object inside
